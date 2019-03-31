@@ -31,7 +31,6 @@ class CrearFactura(Gtk.Window):
         builder.add_from_file("Factura.glade")
 
         self.ventana = builder.get_object("Main")
-        ## self.set_default_size(WIDTH, HEIGHT)
 
         ##AÑADIMOS LA CABECERA
         cabeceira = Gtk.HeaderBar(title="Crear Factura")

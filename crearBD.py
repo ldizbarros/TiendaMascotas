@@ -2,7 +2,7 @@ import os
 from sqlite3 import dbapi2
 
 """
-    Genera la base de datos y le mete unos datos iniciales.
+    Genera la base de datos y le introduce unos datos iniciales.
 """
 try:
     ###Creamos la base de datos
